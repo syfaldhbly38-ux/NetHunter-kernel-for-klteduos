@@ -26,7 +26,7 @@ jobs:
   run: |
     mkdir -p $HOME/toolchains
     cd $HOME/toolchains
-    wget wget https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9/archive/refs/heads/lineage-14.1.zip
+    wget https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9/archive/refs/heads/lineage-14.1.zip
 unzip lineage-14.1.zip
 mv android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9-lineage-14.1 arm-eabi-4.9
 
